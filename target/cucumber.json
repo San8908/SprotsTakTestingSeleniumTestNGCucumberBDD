@@ -1,0 +1,67 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 19,
+        "name": "Validating and verifying the functionality of Sportstak",
+        "description": "",
+        "id": "sportstak-functionalities-validations;validating-and-verifying-the-functionality-of-sportstak;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6085857900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open chrome browser and enter URL",
+            "match": {
+              "location": "SportsTakTest.open_chrome_browser_and_enter_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 476630600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on \"Cricket\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cricket",
+                  "offset": 10
+                }
+              ],
+              "location": "SportsTakTest.click_on(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@xyz"
+          }
+        ]
+      }
+    ],
+    "name": "Sportstak functionalities validations",
+    "description": "",
+    "id": "sportstak-functionalities-validations",
+    "keyword": "Feature",
+    "uri": "./Feature/SportsTakFunctionalityValidation.feature",
+    "tags": [
+      {
+        "name": "@xyz",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

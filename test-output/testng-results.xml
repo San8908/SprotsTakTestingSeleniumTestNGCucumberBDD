@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-16T13:00:07 IST" name="Suite" finished-at="2023-01-16T13:07:35 IST" duration-ms="447951">
+    <groups>
+    </groups>
+    <test started-at="2023-01-16T13:00:07 IST" name=" SportsTak Automation Test Report" finished-at="2023-01-16T13:07:35 IST" duration-ms="447951">
+      <class name="com.sportstaktest.TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.sportstaktest.TestRunner.TestRunner@67d48005]" started-at="2023-01-16T13:00:07 IST" name="setUpClass" finished-at="2023-01-16T13:00:07 IST" duration-ms="159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.PickleEventWrapper,cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.sportstaktest.TestRunner.TestRunner@67d48005]" started-at="2023-01-16T13:00:08 IST" name="feature" data-provider="features" finished-at="2023-01-16T13:07:35 IST" duration-ms="447298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating and verifying the functionality of Sportstak"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Sportstak functionalities validations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sportstaktest.TestRunner.TestRunner@67d48005]" started-at="2023-01-16T13:07:35 IST" name="tearDownClass" finished-at="2023-01-16T13:07:35 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sportstaktest.TestRunner.TestRunner -->
+    </test> <!--  SportsTak Automation Test Report -->
+  </suite> <!-- Suite -->
+</testng-results>

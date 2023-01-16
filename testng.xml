@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name=" SportsTak Automation Test Report">
+		<classes>
+			<class name="com.sportstaktest.TestRunner.TestRunner" />
+		</classes>
+	</test> <!-- Test -->
+
+	<!-- Listners implemented in below location -->
+	<listeners>
+		<listener
+			class-name="com.sportstaktest.Listeners.ITestListenerImpl"></listener>
+	</listeners>
+
+</suite> <!-- Suite -->
